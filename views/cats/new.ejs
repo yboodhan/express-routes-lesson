@@ -1,0 +1,24 @@
+<form method="POST" action="/cats/postroute1">
+    <h1>POST FORM 1!</h1>
+    <input type="text" name="name"/>
+    <button type="submit">submit</button>
+</form>
+
+
+<form method="POST" action="/cats/postroute2">
+    <h1>POST FORM 2!</h1>
+    <input type="text" name="name"/>
+    <button type="submit">submit</button>
+</form>
+
+<form method="POST" action="/cats/postroute2/?_method=PUT">
+    <h1>PUT FORM 1! METHOD MUST BE POST!</h1>
+    <input type="text" name="name"/>
+    <button type="submit">submit</button>
+</form>
+
+<form method="POST" action="/cats/postroute2/?_method=DELETE">
+    <h1>DELETE FORM 1! METHOD MUST BE POST!</h1>
+    <input type="text" name="name"/>
+    <button type="submit">submit</button>
+</form>
